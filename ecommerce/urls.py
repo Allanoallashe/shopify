@@ -27,6 +27,6 @@ urlpatterns = [
     path('auth/',include("authcart.urls"))
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-urlpatters += staticfiles_urlpatterns() #new
+urlpatterns += staticfiles_urlpatterns() #new
 
 
