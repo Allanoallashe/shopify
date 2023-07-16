@@ -119,7 +119,6 @@ USE_TZ = True
 
 EMAIL_HOST='smtpout.secureserver.net'
 EMAIL_HOST_USER='opondobroono@gmail.com'
-EMAIL_HOST_PASSWORD='Opondo@2001'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
